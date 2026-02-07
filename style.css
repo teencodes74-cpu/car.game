@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background for retro feel */
+}
+canvas {
+    border: 2px solid #fff; /* White border */
+    image-rendering: pixelated; /* Forces pixelated scaling */
+    image-rendering: -moz-crisp-edges; /* Firefox support */
+    image-rendering: crisp-edges; /* Safari support */
+    transform: scale(2); /* Scale up for bigger pixels */
+    transform-origin: top left;
+}
